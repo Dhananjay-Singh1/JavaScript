@@ -9,7 +9,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros]
+const all_new_heros = [...marvel_heros, ...dc_heros]  //spread operator use to join two or more arrays
 
 // console.log(all_new_heros);
 
@@ -22,7 +22,7 @@ console.log(real_another_array);
 
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.from({name: "hitesh"})) //It will return null array
 
 let score1 = 100
 let score2 = 200
